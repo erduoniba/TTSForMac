@@ -1,0 +1,28 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="zh-CN">
+    <voice name="zh-CN-YunyangNeural">
+        <mstts:express-as style="sad" styledegree="2.0">
+           <prosody rate="0.7" volume="70">
+                <bookmark mark='公谨'/>"近日养伤，深感人生之艰难，就像那不息之长河，虽有东去大海之志，却流程缓慢，征程多艰。<break time="500ms" />哎……<break time="700ms" />然江河水总有入海之时，而人生之志，却常常难以实现，令人抱憾终生。"
+           </prosody>
+        </mstts:express-as>
+    </voice>
+
+    <voice name="zh-CN-XiaoxiaoNeural">
+        <mstts:express-as style="empathetic" styledegree="1.2">
+           <prosody rate="0.9" volume="90">
+           		<bookmark mark='小乔'/>
+                "将军英才盖世，辅佐明主，渴求统一大业，确属鲲鹏之志，然涓滴之水汇成江河，已属不易，奔流向前，汇入大海之时，更会倍感自身之渺茫。"
+           </prosody>
+        </mstts:express-as>
+    </voice>
+
+    <voice name="zh-CN-YunyangNeural">
+        <mstts:express-as style="chat" styledegree="1.3">
+           <prosody rate="0.8" volume="90">
+           		<bookmark mark='公谨'/>
+                "妻之言，确如金石，令我宽解许多"
+           </prosody>
+        </mstts:express-as>
+    </voice>
+
+</speak>

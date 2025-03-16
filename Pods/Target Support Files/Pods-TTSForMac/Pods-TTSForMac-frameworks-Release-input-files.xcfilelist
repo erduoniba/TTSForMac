@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/Pods-TTSForMac/Pods-TTSForMac-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MicrosoftCognitiveServicesSpeech-macOS/MicrosoftCognitiveServicesSpeech.framework/MicrosoftCognitiveServicesSpeech

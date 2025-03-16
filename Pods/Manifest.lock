@@ -1,0 +1,16 @@
+PODS:
+  - MicrosoftCognitiveServicesSpeech-macOS (1.42.0)
+
+DEPENDENCIES:
+  - MicrosoftCognitiveServicesSpeech-macOS (~> 1.17)
+
+SPEC REPOS:
+  trunk:
+    - MicrosoftCognitiveServicesSpeech-macOS
+
+SPEC CHECKSUMS:
+  MicrosoftCognitiveServicesSpeech-macOS: 049eb2dcdd6c68dfddac3a4bd2169bf474898c2f
+
+PODFILE CHECKSUM: f759d34e81e58ed88cca390f8dfbd63fb9e74035
+
+COCOAPODS: 1.11.2

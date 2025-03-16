@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D94CC6B02D86797200E4FD67 /* VoiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC68A2D86796100E4FD67 /* VoiceManager.swift */; };
+		D94CC6B12D86797200E4FD67 /* VoiceStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC6982D86796100E4FD67 /* VoiceStyleView.swift */; };
+		D94CC6B22D86797200E4FD67 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC6952D86796100E4FD67 /* InputView.swift */; };
+		D94CC6B32D86797200E4FD67 /* AppStoreage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC68C2D86796100E4FD67 /* AppStoreage.swift */; };
+		D94CC6B42D86797200E4FD67 /* TTSMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC69A2D86796100E4FD67 /* TTSMainView.swift */; };
+		D94CC6B52D86797200E4FD67 /* HisCountryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC6882D86796100E4FD67 /* HisCountryManager.swift */; };
+		D94CC6B62D86797200E4FD67 /* OperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC6962D86796100E4FD67 /* OperationView.swift */; };
+		D94CC6B72D86797200E4FD67 /* PlatformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC6972D86796100E4FD67 /* PlatformView.swift */; };
+		D94CC6B82D86797200E4FD67 /* BytedanceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC6872D86796100E4FD67 /* BytedanceAPI.swift */; };
+		D94CC6B92D86797200E4FD67 /* VoiceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC68D2D86796100E4FD67 /* VoiceModels.swift */; };
+		D94CC6BA2D86797200E4FD67 /* TTSNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC6892D86796100E4FD67 /* TTSNotification.swift */; };
+		D94CC6BB2D86797200E4FD67 /* TTSForMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC69C2D86796100E4FD67 /* TTSForMac.swift */; };
+		D94CC6BF2D86797200E4FD67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94CC68F2D86796100E4FD67 /* Preview Assets.xcassets */; };
+		D94CC6C02D86797200E4FD67 /* VioiceRoleLibrary.plist in Resources */ = {isa = PBXBuildFile; fileRef = D94CC6932D86796100E4FD67 /* VioiceRoleLibrary.plist */; };
+		D94CC6C12D86797200E4FD67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94CC6912D86796100E4FD67 /* Assets.xcassets */; };
+		DC4108B55D27CCBE633FF403 /* Pods_TTSForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599717E6731BFB80F72C4AD4 /* Pods_TTSForMac.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		599717E6731BFB80F72C4AD4 /* Pods_TTSForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTSForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CCAE9D1452DCEE8F3AA77F1 /* Pods-TTSForMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSForMac.release.xcconfig"; path = "Target Support Files/Pods-TTSForMac/Pods-TTSForMac.release.xcconfig"; sourceTree = "<group>"; };
+		D94CC6872D86796100E4FD67 /* BytedanceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BytedanceAPI.swift; sourceTree = "<group>"; };
+		D94CC6882D86796100E4FD67 /* HisCountryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisCountryManager.swift; sourceTree = "<group>"; };
+		D94CC6892D86796100E4FD67 /* TTSNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSNotification.swift; sourceTree = "<group>"; };
+		D94CC68A2D86796100E4FD67 /* VoiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceManager.swift; sourceTree = "<group>"; };
+		D94CC68C2D86796100E4FD67 /* AppStoreage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreage.swift; sourceTree = "<group>"; };
+		D94CC68D2D86796100E4FD67 /* VoiceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceModels.swift; sourceTree = "<group>"; };
+		D94CC68F2D86796100E4FD67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D94CC6912D86796100E4FD67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D94CC6922D86796100E4FD67 /* TTSForMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TTSForMac.entitlements; sourceTree = "<group>"; };
+		D94CC6932D86796100E4FD67 /* VioiceRoleLibrary.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VioiceRoleLibrary.plist; sourceTree = "<group>"; };
+		D94CC6952D86796100E4FD67 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		D94CC6962D86796100E4FD67 /* OperationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationView.swift; sourceTree = "<group>"; };
+		D94CC6972D86796100E4FD67 /* PlatformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformView.swift; sourceTree = "<group>"; };
+		D94CC6982D86796100E4FD67 /* VoiceStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceStyleView.swift; sourceTree = "<group>"; };
+		D94CC69A2D86796100E4FD67 /* TTSMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSMainView.swift; sourceTree = "<group>"; };
+		D94CC69C2D86796100E4FD67 /* TTSForMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSForMac.swift; sourceTree = "<group>"; };
+		D94CC6C62D86797200E4FD67 /* TTSForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D4EFEB04F43D937E5B4CF2 /* Pods-TTSForMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSForMac.debug.xcconfig"; path = "Target Support Files/Pods-TTSForMac/Pods-TTSForMac.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D94CC6BC2D86797200E4FD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4108B55D27CCBE633FF403 /* Pods_TTSForMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81F531EC70A2C84884135267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				599717E6731BFB80F72C4AD4 /* Pods_TTSForMac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D94CC68B2D86796100E4FD67 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D94CC6872D86796100E4FD67 /* BytedanceAPI.swift */,
+				D94CC6882D86796100E4FD67 /* HisCountryManager.swift */,
+				D94CC6892D86796100E4FD67 /* TTSNotification.swift */,
+				D94CC68A2D86796100E4FD67 /* VoiceManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D94CC68E2D86796100E4FD67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D94CC68C2D86796100E4FD67 /* AppStoreage.swift */,
+				D94CC68D2D86796100E4FD67 /* VoiceModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D94CC6902D86796100E4FD67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D94CC68F2D86796100E4FD67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D94CC6942D86796100E4FD67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D94CC6902D86796100E4FD67 /* Preview Content */,
+				D94CC6912D86796100E4FD67 /* Assets.xcassets */,
+				D94CC6922D86796100E4FD67 /* TTSForMac.entitlements */,
+				D94CC6932D86796100E4FD67 /* VioiceRoleLibrary.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D94CC6992D86796100E4FD67 /* Mircrosoft */ = {
+			isa = PBXGroup;
+			children = (
+				D94CC6952D86796100E4FD67 /* InputView.swift */,
+				D94CC6962D86796100E4FD67 /* OperationView.swift */,
+				D94CC6972D86796100E4FD67 /* PlatformView.swift */,
+				D94CC6982D86796100E4FD67 /* VoiceStyleView.swift */,
+			);
+			path = Mircrosoft;
+			sourceTree = "<group>";
+		};
+		D94CC69B2D86796100E4FD67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D94CC6992D86796100E4FD67 /* Mircrosoft */,
+				D94CC69A2D86796100E4FD67 /* TTSMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D94CC69D2D86796100E4FD67 /* TTSForMac */ = {
+			isa = PBXGroup;
+			children = (
+				D94CC68B2D86796100E4FD67 /* Managers */,
+				D94CC68E2D86796100E4FD67 /* Models */,
+				D94CC6942D86796100E4FD67 /* Resources */,
+				D94CC69B2D86796100E4FD67 /* Views */,
+				D94CC69C2D86796100E4FD67 /* TTSForMac.swift */,
+			);
+			path = TTSForMac;
+			sourceTree = "<group>";
+		};
+		D9C3676D2D0409D6002A3B45 = {
+			isa = PBXGroup;
+			children = (
+				D94CC69D2D86796100E4FD67 /* TTSForMac */,
+				D9C367772D0409D6002A3B45 /* Products */,
+				F2A71A05B45054F0DC0EA13E /* Pods */,
+				81F531EC70A2C84884135267 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9C367772D0409D6002A3B45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D94CC6C62D86797200E4FD67 /* TTSForMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2A71A05B45054F0DC0EA13E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4D4EFEB04F43D937E5B4CF2 /* Pods-TTSForMac.debug.xcconfig */,
+				9CCAE9D1452DCEE8F3AA77F1 /* Pods-TTSForMac.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D94CC6AD2D86797200E4FD67 /* TTSForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D94CC6C32D86797200E4FD67 /* Build configuration list for PBXNativeTarget "TTSForMac" */;
+			buildPhases = (
+				D94CC6AE2D86797200E4FD67 /* [CP] Check Pods Manifest.lock */,
+				D94CC6AF2D86797200E4FD67 /* Sources */,
+				D94CC6BC2D86797200E4FD67 /* Frameworks */,
+				D94CC6BE2D86797200E4FD67 /* Resources */,
+				D94CC6C22D86797200E4FD67 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSForMac;
+			productName = MicrosoftTTS;
+			productReference = D94CC6C62D86797200E4FD67 /* TTSForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9C3676E2D0409D6002A3B45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+			};
+			buildConfigurationList = D9C367712D0409D6002A3B45 /* Build configuration list for PBXProject "TTSForMac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9C3676D2D0409D6002A3B45;
+			productRefGroup = D9C367772D0409D6002A3B45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D94CC6AD2D86797200E4FD67 /* TTSForMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D94CC6BE2D86797200E4FD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94CC6BF2D86797200E4FD67 /* Preview Assets.xcassets in Resources */,
+				D94CC6C02D86797200E4FD67 /* VioiceRoleLibrary.plist in Resources */,
+				D94CC6C12D86797200E4FD67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D94CC6AE2D86797200E4FD67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTSForMac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94CC6C22D86797200E4FD67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTSForMac/Pods-TTSForMac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTSForMac/Pods-TTSForMac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TTSForMac/Pods-TTSForMac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D94CC6AF2D86797200E4FD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94CC6B02D86797200E4FD67 /* VoiceManager.swift in Sources */,
+				D94CC6B12D86797200E4FD67 /* VoiceStyleView.swift in Sources */,
+				D94CC6B22D86797200E4FD67 /* InputView.swift in Sources */,
+				D94CC6B32D86797200E4FD67 /* AppStoreage.swift in Sources */,
+				D94CC6B42D86797200E4FD67 /* TTSMainView.swift in Sources */,
+				D94CC6B52D86797200E4FD67 /* HisCountryManager.swift in Sources */,
+				D94CC6B62D86797200E4FD67 /* OperationView.swift in Sources */,
+				D94CC6B72D86797200E4FD67 /* PlatformView.swift in Sources */,
+				D94CC6B82D86797200E4FD67 /* BytedanceAPI.swift in Sources */,
+				D94CC6B92D86797200E4FD67 /* VoiceModels.swift in Sources */,
+				D94CC6BA2D86797200E4FD67 /* TTSNotification.swift in Sources */,
+				D94CC6BB2D86797200E4FD67 /* TTSForMac.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D94CC6C42D86797200E4FD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D4EFEB04F43D937E5B4CF2 /* Pods-TTSForMac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = TTSForMac/Resources/TTSForMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TTSForMac/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TKRM4J3XJV;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = TKRM4J3XJV;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harry.ttsformac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = JDLTDev_10_12;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D94CC6C52D86797200E4FD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCAE9D1452DCEE8F3AA77F1 /* Pods-TTSForMac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = TTSForMac/Resources/TTSForMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TTSForMac/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TKRM4J3XJV;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = TKRM4J3XJV;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harry.ttsformac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = JDLTDev_10_12;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D9C367832D0409D7002A3B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9C367842D0409D7002A3B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D94CC6C32D86797200E4FD67 /* Build configuration list for PBXNativeTarget "TTSForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94CC6C42D86797200E4FD67 /* Debug */,
+				D94CC6C52D86797200E4FD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C367712D0409D6002A3B45 /* Build configuration list for PBXProject "TTSForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C367832D0409D7002A3B45 /* Debug */,
+				D9C367842D0409D7002A3B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9C3676E2D0409D6002A3B45 /* Project object */;
+}
