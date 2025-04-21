@@ -67,7 +67,7 @@ struct PlatformView: View {
             
             switch platformKeyObject.platform {
             case .microsoft:
-                TextField("输入微软语音合成信息(subscriptionKey)", text: $platformKeyObject.key)
+                SecureField("输入微软语音合成信息(subscriptionKey)", text: $platformKeyObject.key)
                 TextField("输入微软语音合成信息(region)", text: $platformKeyObject.region)
             case .bytedance:
                 TextField("输入火山语音合成信息(appid)", text: $platformKeyObject.key)
